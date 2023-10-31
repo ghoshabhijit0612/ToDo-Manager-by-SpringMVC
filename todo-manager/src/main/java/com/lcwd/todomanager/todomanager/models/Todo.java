@@ -1,5 +1,7 @@
 package com.lcwd.todomanager.todomanager.models;
 
+import java.util.Date;
+
 public class Todo {
 
 
@@ -7,6 +9,7 @@ public class Todo {
     private String title;
     private String content;
     private  String status;
+//    private Date date;
 
     //constructor
     public Todo(int id, String title, String content, String status) {
