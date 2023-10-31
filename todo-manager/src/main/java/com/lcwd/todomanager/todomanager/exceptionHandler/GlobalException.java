@@ -8,7 +8,7 @@ public class GlobalException {
 
     @ExceptionHandler(NullPointerException.class)
     public String getException(NullPointerException ex){
-        
+        return ex.getMessage();
 
     }
 
