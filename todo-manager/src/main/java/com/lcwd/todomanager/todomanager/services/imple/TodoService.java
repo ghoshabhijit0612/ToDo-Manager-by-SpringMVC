@@ -1,10 +1,9 @@
-package com.lcwd.todomanager.todomanager.services;
+package com.lcwd.todomanager.todomanager.services.imple;
 
 import com.lcwd.todomanager.todomanager.models.Todo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +12,7 @@ import java.util.Random;
 //import static com.sun.beans.introspect.PropertyInfo.Name.bound;
 
 @Component
-public class TodoService {
+public class TodoService implements TodoServiceInterface {
 
 
     //creating Logger
