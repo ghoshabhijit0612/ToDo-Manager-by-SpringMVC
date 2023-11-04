@@ -23,6 +23,7 @@ public class TodoManagerApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		System.out.println("Application started");
+		System.out.println("------------Application started--------");
 //		logger.info("Application strated ------>>>>>");
 //		JdbcTemplate temp =  todoDao.getTemplate();
 //		logger.info("Template object {}",temp);
